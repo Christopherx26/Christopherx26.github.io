@@ -1,0 +1,17 @@
+.title {
+    font-size: 25px;
+}
+
+.aboutInfo {
+    font-size: 25px;
+}
+
+button {
+    text-align: center;
+}
+
+footer {
+    font-size: 50px;
+    flex-flow: row nowrap;
+    text-align: center;
+}
