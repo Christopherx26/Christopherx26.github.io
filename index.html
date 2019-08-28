@@ -2,29 +2,248 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Christopher Castaneda</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="main.js"></script>
+  <title>Christopher Castaneda</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="card">
-        <div class="front"><img src="https://images.unsplash.com/photo-1537529242089-ead59ac2540e?ixlib=rb-0.3.5&s=0ed709d72c5d4a55493356120ffb0be8&auto=format&fit=crop&w=633&q=80"></div>
-        <div class="back">
-            <div class="details">
-                <h2>Christopher Castaneda<br><span>Fullstack Web Developer</span><br><span>Portfolio under construction</span></h2>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/christopher-castaneda-092713167/"><i class="fa fa-linkedin"
-                            aria-hidden="true"></i></a>
-                    <a href="https://github.com/Christopherx26"><i class="fa fa-github" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
+<body class="w3-black">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="mebw.jpg" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-briefcase w3-xxlarge"></i>
+      <p>EXPERIENCE</p>
+    </a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-desktop w3-xxlarge"></i>
+      <p>PORTFOLIO</p>
+    </a>
+    <!-- <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a> -->
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <!-- <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a> -->
     </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo">
+        <span class="w3-hide-small"></span> Christopher Castaneda</h1>
+      <p class="title">Full Stack Web Designer.</p>
+      <hr class="w3-opacity">
+
+      <!-- <img src="me2bw.jpg" alt="boy" class="w3-image" width="700" height="700"> -->
+    </header>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p class="aboutInfo">I was born in Tucson, Arizona. I have lived in many places before my parents settled in Sierra
+      Blanca, Texas.
+      I graduated high school from there and eventually ended up working for the local county jail. I worked there
+      for several years before deciding to move to El Paso, Texas. I spent my time working for private jails and
+      security around the El Paso area when I decided it was time for a change. I moved down to the Rio Grande
+      Valley and enrolled into the University Of Texas Pan American(Rio Grande Valley). I graduated in 2017 with
+      a Degree both Psychology and Philosophy. A year later I enrolled into the 12 week web development course provided
+      by Valley Technical Academy. I finished the course in September 2018.
+    </p>
+    <h2 class="w3-padding-16 w3-text-light-grey">My Skills</h2>
+    <hr class="w3-opacity">
+    <p class="w3-wide">Full Stack</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Front End</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Back End</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <br>
+
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section-s">
+        <span class="w3-xlarge">5+ yrs</span>
+        <br> Security experience
+      </div>
+      <div class="w3-quarter w3-section-s">
+        <span class="w3-xlarge">10+ yrs</span>
+        <br> Corrections experience
+      </div>
+      <div class="w3-quarter w3-section-s">
+        <span class="w3-xlarge">1</span>
+        <br>Bachelor's in Philosophy
+      </div>
+      <div class="w3-quarter w3-section-s">
+        <span class="w3-xlarge">1</span>
+        <br>Bachelor's in Psychology
+      </div>
+    </div>
+
+    <!-- <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                <i class="fa fa-download w3-xxlarge w3-margin-right"></i>Download Resume
+            </button> -->
+
+    <!-- End About Section -->
+  </div>
+
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="experience">
+    <h2 class="w3-text-light-grey">Work</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div>
+      <p class="aboutWork">My work tries to show my skills as a full stack web developer. I build web applications using
+        my knowledge using HTML,CSS, and JavaScript.</p>
+    </div>
+  </div>
+
+
+  <!-- Container (Portfolio Section) -->
+  <div class="w3-content w3-justify w3-padding-64" id="portfolio">
+    <!-- <h3 class="w3-text-light-grey">Examples</h3>
+    <hr style="width:200px" class="w3-center w3-opacity"> -->
+    <p class="w3-center"><em>Here is an example of some of my work.<br> Click on the images to make them bigger</em></p>
+    <br>
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img
+          src="https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9830a4c5f51d1c7cb2492c29e152302&auto=format&fit=crop&w=1590&q=80"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="fuck">
+      </div>
+
+      <div class="w3-col m3">
+        <img
+          src="https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9830a4c5f51d1c7cb2492c29e152302&auto=format&fit=crop&w=1590&q=80"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+      </div>
+
+      <div class="w3-col m3">
+        <img
+          src="https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9830a4c5f51d1c7cb2492c29e152302&auto=format&fit=crop&w=1590&q=80"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+      </div>
+
+      <div class="w3-col m3">
+        <img
+          src="https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9830a4c5f51d1c7cb2492c29e152302&auto=format&fit=crop&w=1590&q=80"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+      </div>
+    </div>
+
+    <!-- <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img
+          src="https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9830a4c5f51d1c7cb2492c29e152302&auto=format&fit=crop&w=1590&q=80"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+      </div>
+
+      <div class="w3-col m3">
+        <img
+          src="https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9830a4c5f51d1c7cb2492c29e152302&auto=format&fit=crop&w=1590&q=80"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+      </div>
+
+      <div class="w3-col m3">
+        <img
+          src="https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9830a4c5f51d1c7cb2492c29e152302&auto=format&fit=crop&w=1590&q=80"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+      </div>
+
+      <div class="w3-col m3">
+        <img
+          src="https://images.unsplash.com/photo-1490810194309-344b3661ba39?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c9830a4c5f51d1c7cb2492c29e152302&auto=format&fit=crop&w=1590&q=80"
+          style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+      </div> -->
+  </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+        class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <!-- <div class="w3-content w3-justify w3-padding-64" id="contact">
+    <h3 class="w3-text-light-grey">CONTACT ME</h3>
+    <hr style="width:200px" class="w3-center w3-opacity">
+    <p class="w3-text-light-grey w3-center"><em>I'd love your feedback!</em></p>
+
+
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+        <div class="w3-half">
+          <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+        </div>
+        <div class="w3-half">
+          <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+        </div>
+      </div>
+      <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+      <button class="w3-button w3-black w3-right w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  </div>
+  </div> -->
+
+
+  <!-- Footer -->
+  <!-- <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <!-- End footer -->
+  </footer>
+
+  <!-- END PAGE CONTENT -->
+  </div>
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8KyFn7v740NBs2f45vkXlp0NgbX5seNw&callback=myMap">
+  </script>
 </body>
 
 </html>
